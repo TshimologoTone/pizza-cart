@@ -1,0 +1,10 @@
+const pizzaz = ['Small R49.00', 'Medium R89.00', 'Large R129.00'];
+const pizzaList = document.querySelector(".pizzaz");
+
+for(let i=0;i<pizzaz.length;i++){
+    const pizza = pizzaz[i];
+
+   const li = document.createElement('li');
+   li.innerText = pizza;
+   pizzaList.appendChild(li);
+}
