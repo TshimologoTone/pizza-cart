@@ -1,0 +1,39 @@
+body {
+    background-color: hotpink;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.pizza {
+    /* box_model */
+    border: 1px solid rgba(253, 33, 4, 0.667);
+    padding: 1cm;
+    margin: 1cm;
+    /* margin-left: 0cm; */
+    margin-bottom: 0.5cm;
+    border-radius: 1cm;
+}
+
+.medium_pizza {
+    background-color: aqua;
+    flex: 2;
+}
+
+.large_pizza{
+    background-color: chartreuse;
+    flex: 3;
+}
+
+.small_pizza {
+    background-color: gold;
+    flex: 1;
+}
+
+.contact_details {
+    background-color: red;
+}
+
+@media (min-width: 960px) {
+    .pizzas {
+        display: flex;
+    }
+}
